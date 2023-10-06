@@ -24,5 +24,5 @@ As a marketing agency, I want a codebase that follows accessibility standards so
 ## Unresolved Issues
 - Still working on fixing section.benefits element (floats to the bottom below 1616px)
 - Containers sitting oddly
-- cant get deployment page to correctly link assets
+- Cant get deployment page to correctly link assets
 
