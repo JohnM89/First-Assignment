@@ -1,28 +1,21 @@
-# First Assignment
+# 🌟 First Assignment
 
-## User Story
+## 🚀 User Story
 As a marketing agency, I want a codebase that follows accessibility standards so that our own site is optimized for search engines.
 
-## Acceptance Criteria
-- Given a webpage meets accessibility standards
-- When I view the source code
-  - Then I find semantic HTML elements
-  - When I view the structure of the HTML elements
-    - Then I find that the elements follow a logical structure independent of styling and positioning
-  - When I view the image elements
-    - Then I find accessible alt attributes
-  - When I view the heading attributes
-    - Then they fall in sequential order
-  - When I view the title element
-    - Then I find a concise, descriptive title
+## 🎯 Acceptance Criteria
+- **Webpage Meets Accessibility Standards**
+  - **Source Code Inspection**: Semantic HTML elements are present.
+  - **HTML Structure**: Elements follow a logical structure, independent of styling and positioning.
+  - **Image Accessibility**: All image elements have accessible alt attributes.
+  - **Heading Hierarchy**: Headings are in a sequential order.
+  - **Title Element**: The title is concise and descriptive.
 
-## Changes Made
-- Rewrote HTML and consolidated portion of CSS for better semantic flow
-- Added accessible Alt attributes
-- Found Title to be concise, HTML elements follow logical structure
+## 🛠️ Changes Made
+- The `section.benefits` element no longer floats to the bottom
+- correctly linking assets on the deployment page.
 
-## Unresolved Issues
-- Still working on fixing section.benefits element (floats to the bottom below 1616px)
-- Containers sitting oddly
-- Cant get deployment page to correctly link assets
+![Marketing Image](./Assets/Screenshot%202023-11-23%20at%2015-15-34%20Horiseon.png)
+
+
 

@@ -91,7 +91,11 @@
      background-color: #2589bd;
  }
 
-.benefits {
+
+
+
+.benefits {         /**manually positioned div to sit correctly*/
+
     position: absolute; /* Set the navbar to fixed position */
     
     top: 174px; /* Align to the top of the viewport */
@@ -106,10 +110,10 @@
  .benefit-brand,
  .benefit-cost {
     position: relative;
-    right: 1px;
+    right: 1px; /* Position it slightly to the right */
      margin-bottom: 32px;
      color: #ffffff;
-     top: 15px;
+     top: 15px; /* Align to the top of the viewport */ 
      
  }
 
@@ -118,17 +122,17 @@
  .benefit-cost h3 {
      position: relative;
      
-    right: 7px;
+    right: 7px; /* Position it slightly to the right */
      margin-bottom: 10px;
      text-align: center;
-     top: -65px;
+     top: -65px; /* Align to the top of the viewport */ 
  }
 .benefit-cost h3 {  
     position: relative;
-    right: 7px;
+    right: 7px; /* Position it slightly to the right */
     margin-bottom: 10px;
     text-align: center;
-    top: -65px;
+    top: -65px; /* Align to the top of the viewport */ 
     font-size: 35px;
 } 
 
