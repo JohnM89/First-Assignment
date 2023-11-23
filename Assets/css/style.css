@@ -87,15 +87,15 @@
      clear: both;
      float: right;
      width: 20%;
-     height: 100%;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      background-color: #2589bd;
  }
 
 .benefits {
     position: absolute; /* Set the navbar to fixed position */
-    top: 0; /* Align to the top of the viewport */
-    right: 30px; /* Position it slightly to the right */
+    
+    top: 174px; /* Align to the top of the viewport */
+    right: -7px; /* Position it slightly to the right */
     width: auto; /* Adjust the width as needed */
     font-size: 36px;
     margin-bottom: 20px;
@@ -105,25 +105,54 @@
  .benefit-lead,
  .benefit-brand,
  .benefit-cost {
+    position: relative;
+    right: 1px;
      margin-bottom: 32px;
      color: #ffffff;
+     top: 15px;
+     
  }
 
  .benefit-lead h3,
  .benefit-brand h3,
  .benefit-cost h3 {
+     position: relative;
+     
+    right: 7px;
      margin-bottom: 10px;
      text-align: center;
+     top: -65px;
  }
+.benefit-cost h3 {  
+    position: relative;
+    right: 7px;
+    margin-bottom: 10px;
+    text-align: center;
+    top: -65px;
+    font-size: 35px;
+} 
+
 
  .benefit-lead img,
  .benefit-brand img,
  .benefit-cost img {
+    position: relative;
+    right: 7px;
      display: block;
      margin: 10px auto;
      max-width: 150px;
+      top: -65px;
  }
+ 
+ 
 
+.benefit-lead p,
+.benefit-brand p,
+.benefit-cost p {
+    position: relative;
+    right: -4px;
+    top: -75px;
+}
  aside {
      margin-bottom: 20px;
      padding: 50px;
