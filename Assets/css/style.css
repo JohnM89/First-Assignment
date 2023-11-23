@@ -92,6 +92,15 @@
      background-color: #2589bd;
  }
 
+.benefits {
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Align to the top of the viewport */
+    right: 30px; /* Position it slightly to the right */
+    width: auto; /* Adjust the width as needed */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 
  .benefit-lead,
  .benefit-brand,
